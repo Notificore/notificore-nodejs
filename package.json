@@ -1,0 +1,39 @@
+{
+  "name": "notificore-nodejs",
+  "version": "1.0.13",
+  "description": "NodeJS wrapper for the Bulk SMS Solutions API",
+  "main": "lib/notificore.js",
+  "engines": {
+    "node": ">=4.7.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/notificore/notificore-nodejs.git"
+  },
+  "keywords": [
+    "sms",
+    "hlr",
+    "viber"
+  ],
+  "author": "Notificore LIMITED <support@notificore.com> (https://app.notificore.com/)",
+  "contributors": [
+    "Anton Zelenski <zelibobla@gmail.com>"
+  ],
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/notificore/notificore-nodejs",
+  "dependencies": {
+    "request":"2.79"
+  },
+  "devDependencies": {
+	  "should":"11.2.0",
+	  "should-equal":"1.0.1",
+	  "should-format":"3.0.3",
+	  "should-type":"1.4.0",
+	  "should-type-adaptors":"1.0.1",
+	  "should-util":"1.0.0",
+	  "mocha":"3.2.0"
+  }
+}
